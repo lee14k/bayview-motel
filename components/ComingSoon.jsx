@@ -7,11 +7,11 @@ import Link from "next/link";
 export default function ComingSoon() {
   return (
     <div
-      className={`text-white mx-12 ${spartan.className} flex flex-col justify-center items-center container mx-auto`}
+      className={`text-white mx-12 ${spartan.className} flex flex-col justify-center items-center container mx-auto text-center`}
     >
       <p className="text-5xl">BAY VIEW MOTEL</p>
       <h1 className="text-8xl">Website Coming Soon</h1>
-      <p className="text-5xl mx-48">
+      <p className="text-5xl mx-48 ">
         We are currently making some improvements to our website. Give us a call
         to book your stay!
       </p>
