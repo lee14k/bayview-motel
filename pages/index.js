@@ -1,8 +1,15 @@
 import ComingSoon from "@/components/ComingSoon";
+import HomeHead from "@/components/HomeHead";
+import Navbar from "@/components/FrontEnd/Navbar";
+import LocalSpotlight from "@/components/LocalSpotlight";
+import BayDeNox from "@/components/BayDeNox";
 export default function Home() {
   return (
-    <div className="hh-bg h-screen flex justify-center items-center flex-col w-full h-full">
-      <ComingSoon />
+    <div className="">
+      <Navbar/>
+      <HomeHead />
+      <LocalSpotlight />
+      <BayDeNox />
     </div>
   );
 }
