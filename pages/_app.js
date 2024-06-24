@@ -1,6 +1,9 @@
 import "@/styles/globals.css";
 import { ParallaxProvider } from "react-scroll-parallax";
+import { supabase } from '../supabaseClient';
+
 export default function App({ Component, pageProps }) {
+  
   return (
   <ParallaxProvider>  
   <Component {...pageProps} />;
